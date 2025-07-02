@@ -1,0 +1,7 @@
+project.manifest = manifest.xml
+
+base.sourcePath = source
+base.resourcePath = resources
+
+descentmk343mm.sourcePath = source
+descentmk343mm.resourcePath = resources

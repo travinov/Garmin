@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- Манифест для циферблата Garmin Descent MK3i -->
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application
+        entry="DescentWatchfaceApp"
+        id="12345678-abcd-1234-abcd-123456789abc"
+        launcherIcon="@Drawables.LauncherIcon"
+        minSdkVersion="3.0.0"
+        name="@Strings.AppName"
+        type="watchface"
+        version="1.0.0">
+
+        <iq:products>
+            <!-- Descent MK3i 43mm -->
+            <iq:product id="descentmk343mm"/>
+        </iq:products>
+
+        <iq:permissions/>
+
+        <iq:languages>
+            <!-- Поддерживаемые языки -->
+            <iq:language>eng</iq:language>
+        </iq:languages>
+
+        <iq:barrels/>
+
+    </iq:application>
+</iq:manifest>

@@ -1,0 +1,24 @@
+# Connect IQ Build Files
+bin/gen/
+bin/mir/
+bin/internal-mir/
+bin/external-mir/
+*.debug.xml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/settings.json.backup
+
+# Private Keys (keep developer_key for this project)
+# developer_key
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Zip Archives
+*.zip

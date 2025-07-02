@@ -1,0 +1,8 @@
+{
+    "monkeyC.jungleFiles": ["monkey.jungle"],
+    "monkeyC.developerKeyPath": "developer_key",
+    "monkeyC.testDevice": ["descentmk343mm"],
+    "monkeyC.compilerWarnings": true,
+    "monkeyC.typeCheckLevel": 1,
+    "monkeyC.optimizationLevel": 0
+}

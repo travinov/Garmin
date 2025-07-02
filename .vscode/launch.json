@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run on Descent MK3i",
+            "type": "ciq",
+            "request": "launch",
+            "program": "${workspaceFolder}/monkey.jungle",
+            "device": "descentmk343mm",
+            "preLaunchTask": "Build Only"
+        },
+        {
+            "name": "Run Tests on Descent MK3i",
+            "type": "ciq",
+            "request": "launch",
+            "program": "${workspaceFolder}/monkey.jungle",
+            "device": "descentmk343mm",
+            "runTests": true
+        }
+    ]
+}
