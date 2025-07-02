@@ -4,11 +4,17 @@ bin/mir/
 bin/internal-mir/
 bin/external-mir/
 *.debug.xml
+*.prg.debug.xml
+bin/test*.prg
+
+# Keep only the main compiled watchface
+!bin/GarminmokeyC2.prg
 
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
+**/.DS_Store
 
 # VS Code
 .vscode/settings.json.backup
@@ -22,3 +28,10 @@ bin/external-mir/
 
 # Zip Archives
 *.zip
+
+# MIR Files (intermediate representation)
+*.mir
+
+# Generated Resource Files
+*.mcgen
+*.mbc
