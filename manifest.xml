@@ -3,7 +3,7 @@
 <iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
     <iq:application
         entry="DescentWatchfaceApp"
-        id="12345678-abcd-1234-abcd-123456789abc"
+        id="a1b2c3d4-e5f6-7890-abcd-123456789def"
         launcherIcon="@Drawables.LauncherIcon"
         minSdkVersion="3.0.0"
         name="@Strings.AppName"
@@ -20,6 +20,7 @@
         <iq:languages>
             <!-- Поддерживаемые языки -->
             <iq:language>eng</iq:language>
+            <iq:language>rus</iq:language>
         </iq:languages>
 
         <iq:barrels/>
